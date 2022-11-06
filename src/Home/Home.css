@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:ital,wght@1,700&family=Roboto&display=swap');
+.first-display{
+    width: 100%;
+    height: 700px;
+    background: url('../images/imgBackground1.png') no-repeat center center;
+}
+
+.open-text{
+    width: 850px;
+    height: 200px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+    padding-top: 120px;
+}
+
+.author-text{
+    padding-top: 130px;
+    width: 450px;
+    height: 90px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.information-buttons{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 120px;
+}
+
+.statement-button{
+    width: 225px;
+    height: 55px;
+    background-color: #de9523;
+    color: #300909;
+    border-radius: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.video{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 15px;
+}
+
+.video>h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #a2a9b7;
+    width: 110px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+.images{
+    margin-left: 100px;
+}
+
+.video>img{
+    width: 55px;
+    height: 55px;
+}
+
+.images>img{
+    width: 275px;
+    height: 190px;
+}
+
+.second-display>.container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.second-display{
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.travel{
+    width: 605px;
+    height: 345px;
+    margin-left: 80px;
+}
+
+.second-text{
+    margin-left: 80px;
+    padding-top: 30px;
+}
+
+.second-text>h2{
+    width: 400px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.second-text>h3{
+    width: 450px;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.second-text>button{
+    margin-top: 20px;
+    width: 185px;
+    height: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid #de9523;
+    border-radius: 20px;
+    color: #de9523;
+}

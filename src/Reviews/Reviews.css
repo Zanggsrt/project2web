@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;1,700&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.container{
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feedback-section>.container{
+    padding-top: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 480px;
+}
+
+.feedback-section{
+    background: url('../images/imgForm1.png') no-repeat center center;
+    height: 380px;
+    width: 100%;
+}
+
+.feedback-text{
+    width: 330px;
+}
+
+.feedback-text h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.feedback-text h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    margin-top: 40px;
+}
+
+.feedback-input{
+    margin-left: 100px;
+}
+
+.feedback-input,input,.feedback-input button{
+    width: 285px;
+}
+
+input{
+    padding-left: 20px;
+    height: 45px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+.feedback-input button{
+    height: 45px;
+    border-radius: 30px;
+    background-color: #de9523;
+    color: black;
+    border: none;
+}
+
+.feedback-input h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.feedback-input h3 span{
+    color: #de9523;
+}
+
+.reviews-section>.container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.reviews-section{
+    height: 500px;
+    padding-top: 30px;
+}
+
+.reviews-text{
+    width: 470px;
+    padding-top: 60px;
+    margin-left: 100px;
+}
+
+.reviews-text h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.reviews-text h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 25px 0px;
+}
+
+.reviews-text button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    width: 220px;
+    height: 40px;
+    font-size: 18px;
+    color: #de9523;
+    border-radius: 30px;
+    border: 1px solid #de9523;
+    background-color: white;
+}
+
+.review-img{
+    width: 700px;
+    height: 350px;
+}
